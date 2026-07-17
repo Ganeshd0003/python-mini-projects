@@ -6,7 +6,7 @@ from google.api_core import exceptions
 import time
 
 # 1. Setup the client
-client = genai.Client(api_key="AIzaSyAMW7bHtt92YuPWQl2Y4p3loCSShKafnPM")
+client = genai.Client(api_key="put_your_api_key_here")
 
 # 2. Start a chat session 
 # Note: Using 'gemini-1.5-flash' is usually the most stable for free tier
