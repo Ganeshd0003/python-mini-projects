@@ -1,6 +1,6 @@
 import requests
 query = input("Enter they keyword you wnat to search the news:")
-key = "8626138977db4b279ded376deda88aa1"
+key = "put_api_key"
 
 url = f"https://newsapi.org/v2/everything?q={query}&from=2025-12-18&sortBy=publishedAt&apiKey={key}"
 
